@@ -9,11 +9,15 @@ There is also an example bot included that reads the headlines from various news
 
 Files
 ---------------------------
-rw.py              - The module containing the RandomWriter, which can train on text and output readable 'gibberish'
-rw_tests.py        - A testing module of the RandomWriter
-graph.py           - The graph used by the RandomWriter
-example_newsbot.py - A fully-functional bot that crawls news subreddits for training data and Tweets a gibberish, yet realistic, news headline
-config.ini         - See below.
+**rw.py**              - The module containing the RandomWriter, which can train on text and output readable 'gibberish'
+
+**rw_tests.py**        - A testing module of the RandomWriter
+
+**graph.py**           - The graph used by the RandomWriter
+
+**example_newsbot.py** - A fully-functional bot that crawls news subreddits for training data and Tweets a gibberish, yet realistic, news headline
+
+**config.ini**         - See below.
 
 config.ini
 ---------------------------
