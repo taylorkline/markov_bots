@@ -1,9 +1,11 @@
 Markov Chain Text Generator
 ===========================
 
-The RandomWriter trains on input text and produces output text that sounds somewhat similar to the input text, with customizable levels of readability.
+The RandomWriter trains on input text and produces output text that sounds somewhat similar to the input text, with customizable levels of readability. Read in more depth about Markov chains in action at [CodingHorror](https://blog.codinghorror.com/markov-and-you/).
 
 In order to use the text generator, you may import the `RandomWriter` from the `rw` module. Alternatively, you may run `python3 rw.py` to get a helpful description of how to run the application from the commandline.
+
+There is also an example bot included that reads the headlines from various news subreddits and, using the RandomWriter, broadcasts a Tweet that sounds vaguely newslike. See the results [on the FoolishNews Twitter account](https://twitter.com/FoolishNews).
 
 Files
 ---------------------------
